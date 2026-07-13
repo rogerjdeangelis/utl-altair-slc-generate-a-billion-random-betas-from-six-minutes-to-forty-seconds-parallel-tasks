@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_beta_montecarlo",
+  "source_file": "utl-altair-slc-generate-a-billion-random-betas-from-six-minutes-to-forty-seconds-parallel-tasks.sas",
+  "source_blob_sha": "ae7bc5456d17f5ac17ac130e895fbf9affd1db26",
+  "source_commit": "146cfac103e2136a08983945cf5704efcc5abf64",
+  "notes": "One-job DATA step estimating the mean of Beta(0.1,10) by summing rand('beta',0.1,10)/N. The accumulation loop and rand() call are kept verbatim; loop count reduced 1e9 -> 1e6 so a single hosted run finishes quickly, and the estimate is placed in a one-row dataset and printed so it appears in the listing. Estimate is stochastic (unseeded rand), so only structural log/status fields are pinned, not the numeric mean."
+}

@@ -1,0 +1,17 @@
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA _null_
+
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+data _null_;avg=0;do i=1 to 125e6;avg=avg+rand("beta",0.1,10)/125e6;end;put avg;run;
+
+NOTE: Wrote _null_ (0 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
