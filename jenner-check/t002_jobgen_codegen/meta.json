@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_jobgen_codegen",
+  "source_file": "utl-altair-slc-generate-a-billion-random-betas-from-six-minutes-to-forty-seconds-parallel-tasks.sas",
+  "source_blob_sha": "ae7bc5456d17f5ac17ac130e895fbf9affd1db26",
+  "source_commit": "146cfac103e2136a08983945cf5704efcc5abf64",
+  "notes": "Code-generation half of the 'twenty parallel jobs' step: the array jobs[20] $132 initialization and the do j=1 to 8 loop that emits each worker script are kept verbatim; the per-job file write (file ... filevar=) is omitted so the emission is visible in the log. Output is fixed literal text, fully deterministic."
+}
